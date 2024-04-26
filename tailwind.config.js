@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
 	darkMode: ['class'],
 	content: [
 		'./pages/**/*.{ts,tsx}',
@@ -20,6 +20,7 @@ module.exports = {
 			colors: {
 				'dark-light': 'hsl(var(--dark-light))',
 				'dark-default': 'hsl(var(--dark-default))',
+				'green-default': 'hsl(var(--green-default))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -75,5 +76,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require('tailwindcss-animate')],
+	plugins: [import('tailwindcss-animate')],
 };
