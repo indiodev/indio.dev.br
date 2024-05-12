@@ -1,7 +1,7 @@
-import { CircleNotch } from '@phosphor-icons/react';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
+import { Logo } from '@/components/common/logo';
 import { Layout } from '@/layout';
 
 const RouteRoute = React.lazy(() =>
@@ -14,12 +14,8 @@ export function Router(): React.ReactElement {
 	return (
 		<React.Suspense
 			fallback={
-				<div className="flex h-screen w-screen items-center justify-center">
-					<CircleNotch
-						size={64}
-						weight="bold"
-						className="animate-spin"
-					/>
+				<div className="flex h-screen w-screen items-center justify-center bg-dark-default">
+					<Logo className="animate-spin" />
 				</div>
 			}
 		>

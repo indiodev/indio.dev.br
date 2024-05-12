@@ -1,8 +1,11 @@
+import { Logo } from '../logo';
+
 export function Footer(): React.ReactElement {
 	return (
 		<footer className="w-full bg-dark-light py-5">
-			<section className="container flex items-center justify-between ">
-				<div className="flex flex-1">
+			<section className="container flex items-center justify-between flex-col-reverse md:flex-row gap-4">
+				<div className="flex flex-1 gap-2 items-center">
+					<Logo className="w-8 h-8" />
 					<span>Copyright © indiodev · 2024</span>
 				</div>
 
