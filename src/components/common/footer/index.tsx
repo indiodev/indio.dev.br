@@ -3,7 +3,7 @@ export function Footer(): React.ReactElement {
 		<footer className="w-full bg-dark-light py-5">
 			<section className="container flex items-center justify-between ">
 				<div className="flex flex-1">
-					<span>Copyright © Marcos Jhollyfer · 2022</span>
+					<span>Copyright © indiodev · 2024</span>
 				</div>
 
 				<ul className="flex items-center justify-center gap-4">
