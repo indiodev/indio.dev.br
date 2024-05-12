@@ -1,18 +1,21 @@
 import { ArrowRight } from '@phosphor-icons/react';
 import { Link } from 'react-router-dom';
 
+import { Avatar } from '@/components/common/avatar';
 import { Icon } from '@/components/common/icon';
 
 export function Root(): React.ReactElement {
 	return (
 		<main className="flex flex-1 h-full flex-col items-center justify-center md:gap-10">
 			<div className="flex w-full flex-col items-center justify-center">
-				<img
+				{/* <img
 					src="/avatar.svg"
 					alt="avatar"
 					className="w-80 h-80"
 					loading="lazy"
-				/>
+				/> */}
+
+				<Avatar.Hero className="w-80 h-80" />
 
 				<h1 className="font-extrabold text-center text-4xl md:text-5xl text-green-default">
 					Marcos Jhollyfer
