@@ -21,18 +21,18 @@ export function Root(): React.ReactElement {
 			<div className="flex gap-6 py-8 flex-col sm:flex-row w-full items-center justify-center">
 				<div className="gap-1 text-center w-full sm:w-60 h-52 border-2 border-blue-default rounded-xl flex items-center justify-center flex-col hover:transform hover:scale-105">
 					<Icon.Frontend />
-					<span className="text-base">+4 anos como</span>
-					<span className=" text-3xl font-bold">Front-end</span>
+					<span className="text-base">+4 anos construindo</span>
+					<span className=" text-3xl font-bold">Interfaces</span>
 				</div>
 				<div className="gap-1 text-center bg-black w-full sm:w-60 h-52 border-2 border-blue-default rounded-xl flex items-center justify-center flex-col hover:transform hover:scale-105">
 					<Icon.Job />
-					<span className="text-base">+5 anos construindo</span>
+					<span className="text-base">+5 anos entregando</span>
 					<span className=" text-3xl font-bold">Soluções</span>
 				</div>
 				<div className="gap-1 text-center w-full sm:w-60 h-52 border-2 border-blue-default rounded-xl flex items-center justify-center flex-col hover:transform hover:scale-105">
 					<Icon.Backend />
-					<span className="text-base">+3 anos como</span>
-					<span className=" text-3xl font-bold">Back-end</span>
+					<span className="text-base">+3 anos construindo</span>
+					<span className=" text-3xl font-bold">Serviços</span>
 				</div>
 			</div>
 
