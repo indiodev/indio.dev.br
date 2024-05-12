@@ -20,15 +20,6 @@ export function Root(): React.ReactElement {
 				<span className="text-lg md:text-xl text-center font-medium ">
 					Engenheiro de Software e Instrutor de Tecnologia
 				</span>
-
-				{/* <div className="flex flex-col w-full gap-4 max-w-xs py-8">
-					<span className="text-lg md:text-xl text-center border border-green-default font-medium w-full py-2 rounded-xl text-green-default">
-						+5 anos de XP
-					</span>
-					<span className="text-lg md:text-xl text-center border border-green-default font-medium w-full py-2 rounded-xl text-green-default">
-						+10K pessoas impactadas
-					</span>
-				</div> */}
 			</div>
 
 			<div className="flex gap-6 py-8 flex-col sm:flex-row w-full items-center justify-center">
