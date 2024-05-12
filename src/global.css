@@ -38,6 +38,8 @@
       --dark-default: 255, 22%, 4%, 1;
 
       --green-default: 129, 100%, 77%;
+
+      --blue-default: 223, 93%, 58%;
     }
 
     .dark {

@@ -6,7 +6,7 @@ import { Header } from '@/components/common/header';
 export function Public(): React.ReactElement {
 	return (
 		<div className="w-full flex flex-col bg-dark-default text-white relative">
-			<Header.Root className="hidden sm:flex">
+			<Header.Root className="hidden sm:flex bg-dark-default">
 				<Header.Navbar>
 					<Header.NavbarItem to="/">Home</Header.NavbarItem>
 					<Header.NavbarItem to="/about">Sobre</Header.NavbarItem>

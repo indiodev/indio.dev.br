@@ -21,6 +21,7 @@ export default {
 				'dark-light': 'hsl(var(--dark-light))',
 				'dark-default': 'hsl(var(--dark-default))',
 				'green-default': 'hsl(var(--green-default))',
+				'blue-default': 'hsl(var(--blue-default))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
