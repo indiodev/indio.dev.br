@@ -12,10 +12,10 @@ export function Root(): React.ReactElement {
 					loading="lazy"
 				/>
 
-				<h1 className="font-extrabold text-[3.25rem] text-green-default">
+				<h1 className="font-extrabold text-center text-4xl md:text-5xl text-green-default">
 					Marcos Jhollyfer
 				</h1>
-				<span className="text-xl">
+				<span className="text-lg md:text-xl text-center">
 					Engenheiro de Software e Instrutor de Tecnologia
 				</span>
 			</div>
