@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <title>Jhollyfer | Portfolio</title>
+  </head>
+  <body class="bg-[#08070B] relative">
+    <header
+      class="w-full inline-flex justify-center items-center p-8 text-[#003399]"
+    >
+      <nav class="container w-full inline-flex justify-center items-center">
+        <!-- border-2 border-transparent hover:border-[#88FF9A] -->
+        <ul
+          class="gap-4 text-white py-6 px-20 rounded-full hidden md:inline-flex"
+        >
+          <li>
+            <a
+              href="#home"
+              class="font-semibold hover:text-[#88FF9A] focus:text-[#88FF9A]"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#projects"
+              class="font-semibold hover:text-[#88FF9A] focus:text-[#88FF9A]"
+              >Projetos</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skills"
+              class="font-semibold hover:text-[#88FF9A] focus:text-[#88FF9A]"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="#career"
+              class="font-semibold hover:text-[#88FF9A] focus:text-[#88FF9A]"
+              >Carreira</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="font-semibold hover:text-[#88FF9A] focus:text-[#88FF9A]"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section
+      id="home"
+      class="w-full flex flex-col justify-center items-center gap-10 p-8"
+    >
+      <div
+        class="container w-full flex flex-col justify-center items-center gap-4"
+      >
+        <span
+          class="bg-[#171717] text-[#77EED7] text-base font-medium px-6 py-1 rounded-full text-center"
+          >👋 hello!</span
+        >
+        <img
+          src="/profile.jpeg"
+          alt="Jhollyfer Rodrigues"
+          class="w-[240px] h-[240px] border-2 border-[#88FF9A] rounded-full p-2"
+        />
+        <h2 class="text-white text-3xl md:text-4xl font-semibold">
+          Eu sou <span class="text-[#88FF9A]">Jhollyfer Rodrigues</span>
+        </h2>
+        <p class="text-[#77EED7] text-xl">Engenheiro de Software</p>
+        <div class="flex flex-row gap-4 w-full justify-center">
+          <a
+            href="/resume-jhollyfer.pdf"
+            target="_blank"
+            class="max-w-[210px] w-full"
+          >
+            <span
+              class="w-full text-center text-white inline-flex gap-2 justify-center items-center border border-white px-6 py-2 rounded-full"
+            >
+              <i data-lucide="download"></i>
+              Baixar CV
+            </span>
+          </a>
+
+          <a
+            href="https://wa.me/559784608863?text=Eu%20quero%20um%20orçamento!%20📋%20"
+            target="_blank"
+            class="max-w-[210px] w-full"
+          >
+            <span
+              class="w-full text-center text-[#88FF9A] inline-flex gap-2 justify-center items-center border border-[#88FF9A] px-6 py-2 rounded-full"
+            >
+              <i data-lucide="phone"></i>
+              Vamos conversar
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="container w-full flex flex-col justify-center items-center gap-4"
+      >
+        <span
+          class="bg-[#171717] text-[#31E1F7] text-base font-medium px-6 py-1 rounded-full text-center"
+          >🧐 Sobre mim</span
+        >
+
+        <div class="text-white flex flex-col gap-2 items-center">
+          <p>
+            👨‍💻 Há mais de 5 anos desenvolvendo aplicações com Adonis JS, React
+            JS e Typescript.
+          </p>
+          <p>
+            🎓 Bacharel em Engenharia de Software pela Universidade Federal do
+            Amazonas
+          </p>
+          <p>💡 Gosto de ajudar pessoas com as minhas soluções</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full flex flex-col justify-center items-center p-8 gap-8">
+      <div class="container w-full flex flex-col justify-center items-center">
+        <span
+          class="bg-[#171717] text-[#77EED7] text-base font-medium px-6 py-1 rounded-full text-center"
+          >👨‍💻 O que venho fazendo?</span
+        >
+      </div>
+      <div class="container w-full grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="flex flex-col text-[#31E1F7]">
+          <div
+            class="p-6 rounded-tl-lg rounded-tr-lg shadow border border-[#3168F7] flex flex-col justify-center items-center"
+          >
+            <svg
+              width="72"
+              height="64"
+              viewBox="0 0 72 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="52" cy="34" r="20" fill="#171717" />
+              <path
+                d="M16 22L4 32L16 42"
+                stroke="url(#paint0_linear_12_3963)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M48 22L60 32L48 42"
+                stroke="url(#paint1_linear_12_3963)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40 10L24 54"
+                stroke="url(#paint2_linear_12_3963)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_12_3963"
+                  x1="6.16667"
+                  y1="24.6389"
+                  x2="17.8385"
+                  y2="34.6183"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_12_3963"
+                  x1="50.1667"
+                  y1="24.6389"
+                  x2="61.8385"
+                  y2="34.6183"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_12_3963"
+                  x1="26.8889"
+                  y1="15.8056"
+                  x2="48.1255"
+                  y2="26.81"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <p>3 anos construindo</p>
+            <h5 class="text-2xl font-bold">Interfaces</h5>
+          </div>
+          <div
+            class="flex flex-col gap-1 justify-center items-center bg-[#171717] py-6 rounded-bl-lg rounded-br-lg"
+          >
+            <span>Desenvolvedor</span>
+            <h5 class="text-2xl font-bold">Front-end</h5>
+          </div>
+        </div>
+
+        <div class="flex flex-col text-[#31E1F7]">
+          <div
+            class="p-6 rounded-tl-lg rounded-tr-lg shadow border border-[#3168F7] flex flex-col justify-center items-center"
+          >
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="32" cy="34" r="20" fill="#171717" />
+              <path
+                d="M10 14H54V44C54 44.5304 53.7893 45.0391 53.4142 45.4142C53.0391 45.7893 52.5304 46 52 46H42C41.4696 46 40.9609 45.7893 40.5858 45.4142C40.2107 45.0391 40 44.5304 40 44V38H24V52C24 52.5304 23.7893 53.0391 23.4142 53.4142C23.0391 53.7893 22.5304 54 22 54H12C11.4696 54 10.9609 53.7893 10.5858 53.4142C10.2107 53.0391 10 52.5304 10 52V14Z"
+                stroke="url(#paint0_linear_11_752)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M24 30H10"
+                stroke="url(#paint1_linear_11_752)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M24 14V38"
+                stroke="url(#paint2_linear_11_752)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40 30H54"
+                stroke="url(#paint3_linear_11_752)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40 14V38"
+                stroke="url(#paint4_linear_11_752)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_11_752"
+                  x1="17.9444"
+                  y1="19.2778"
+                  x2="39.3736"
+                  y2="52.868"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_11_752"
+                  x1="12.5278"
+                  y1="30.1319"
+                  x2="12.5869"
+                  y2="31.3105"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_11_752"
+                  x1="24.1806"
+                  y1="17.1667"
+                  x2="25.8583"
+                  y2="17.2663"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint3_linear_11_752"
+                  x1="42.5278"
+                  y1="30.1319"
+                  x2="42.5869"
+                  y2="31.3105"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint4_linear_11_752"
+                  x1="40.1806"
+                  y1="17.1667"
+                  x2="41.8583"
+                  y2="17.2663"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <p>6 anos entregando</p>
+            <h5 class="text-2xl font-bold">Soluções</h5>
+          </div>
+          <div
+            class="flex flex-col gap-1 justify-center items-center bg-[#171717] py-6 rounded-bl-lg rounded-br-lg"
+          >
+            <span>Dezenas de projetos e</span>
+            <h5 class="text-2xl font-bold">Experiências</h5>
+          </div>
+        </div>
+
+        <div class="flex flex-col text-[#31E1F7]">
+          <div
+            class="p-6 rounded-tl-lg rounded-tr-lg shadow border border-[#3168F7] flex flex-col justify-center items-center"
+          >
+            <svg
+              width="72"
+              height="64"
+              viewBox="0 0 72 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="20" cy="34" r="20" fill="#171717" />
+              <path
+                d="M12 20H34"
+                stroke="url(#paint0_linear_12_3964)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M46 20H68"
+                stroke="url(#paint1_linear_12_3964)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40 26C43.3137 26 46 23.3137 46 20C46 16.6863 43.3137 14 40 14C36.6863 14 34 16.6863 34 20C34 23.3137 36.6863 26 40 26Z"
+                stroke="url(#paint2_linear_12_3964)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18 50C21.3137 50 24 47.3137 24 44C24 40.6863 21.3137 38 18 38C14.6863 38 12 40.6863 12 44C12 47.3137 14.6863 50 18 50Z"
+                stroke="url(#paint3_linear_12_3964)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M62 50C65.3137 50 68 47.3137 68 44C68 40.6863 65.3137 38 62 38C58.6863 38 56 40.6863 56 44C56 47.3137 58.6863 50 62 50Z"
+                stroke="url(#paint4_linear_12_3964)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M45.95 20.825C49.9094 21.9365 53.4785 24.1344 56.2533 27.1698C59.028 30.2052 60.8974 33.9569 61.65 38"
+                stroke="url(#paint5_linear_12_3964)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18.35 38C19.1025 33.9569 20.972 30.2052 23.7467 27.1698C26.5214 24.1344 30.0905 21.9365 34.05 20.825"
+                stroke="url(#paint6_linear_12_3964)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_12_3964"
+                  x1="15.9722"
+                  y1="20.1319"
+                  x2="16.0099"
+                  y2="21.3123"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_12_3964"
+                  x1="49.9722"
+                  y1="20.1319"
+                  x2="50.0099"
+                  y2="21.3123"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_12_3964"
+                  x1="36.1667"
+                  y1="15.5833"
+                  x2="42.8333"
+                  y2="25.0833"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint3_linear_12_3964"
+                  x1="14.1667"
+                  y1="39.5833"
+                  x2="20.8333"
+                  y2="49.0833"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint4_linear_12_3964"
+                  x1="58.1667"
+                  y1="39.5833"
+                  x2="64.8333"
+                  y2="49.0833"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint5_linear_12_3964"
+                  x1="48.7847"
+                  y1="23.0911"
+                  x2="58.5865"
+                  y2="35.8592"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+                <linearGradient
+                  id="paint6_linear_12_3964"
+                  x1="21.1847"
+                  y1="23.0911"
+                  x2="30.9865"
+                  y2="35.8592"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#31E1F7" />
+                  <stop offset="1" stop-color="#3168F7" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <p>3 anos construindo</p>
+            <h5 class="text-2xl font-bold">Serviços</h5>
+          </div>
+          <div
+            class="flex flex-col gap-1 justify-center items-center bg-[#171717] py-6 rounded-bl-lg rounded-br-lg"
+          >
+            <span>Desenvolvedor</span>
+            <h5 class="text-2xl font-bold">Back-end</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full flex flex-col justify-center items-center p-8">
+      <div class="container flex flex-col gap-8">
+        <div class="flex flex-col lg:flex-row justify-between gap-8">
+          <div class="flex flex-col gap-4 items-start">
+            <span
+              class="bg-[#171717] text-[#77EED7] text-base font-medium px-6 py-1 rounded-full text-center"
+              >🔗 Portfólio</span
+            >
+            <h2 class="text-white text-3xl">Trabalhos e projetos</h2>
+          </div>
+          <div
+            class="flex flex-row gap-4 items-end justify-end max-w-md w-full"
+          >
+            <span
+              class="text-[#77EED7] border border-[#77EED7] text-base font-medium px-6 py-1 rounded-full w-full inline-flex justify-center items-center gap-4 py-2"
+            >
+              <i data-lucide="component"></i>
+              Front-end</span
+            >
+            <span
+              class="text-[#77EED7] border border-[#77EED7] text-base font-medium px-6 py-1 rounded-full w-full inline-flex justify-center items-center gap-4 py-2"
+            >
+              <i data-lucide="component"></i>
+              Back-end</span
+            >
+          </div>
+        </div>
+        <div class="grid grid-cols-1 gap-4">
+          <a href="https://jedaistec.com.br" target="_blank">
+            <div class="p-6 bg-black border border-[#88FF9A] rounded-lg shadow">
+              <h5 class="mb-2 text-xl font-bold text-white">Jedais Tec</h5>
+              <p class="mb-3 font-normal text-white/50">
+                Lading page Jedais Tec, uma landing page para uma EdTech
+              </p>
+              <div>
+                <span
+                  class="bg-[#4AE290]/50 text-[#88FF9A] text-xs font-medium px-2.5 py-0.5 rounded cursor-pointer"
+                  >Online</span
+                >
+                <span
+                  class="bg-[#171717] text-white text-xs font-medium px-2.5 py-0.5 rounded"
+                  >Javascript</span
+                >
+              </div>
+
+              <img
+                src="/jedais-tec.png"
+                alt="Move.it"
+                class="w-full mt-4 rounded-lg p-4 border border-[#88FF9A]/10"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full inline-flex justify-center items-center p-8">
+      <div class="container flex flex-col gap-8 items-center">
+        <span
+          class="bg-[#171717] text-[#77EED7] text-base font-medium px-6 py-1 rounded-full text-center"
+          >📬 Contatos</span
+        >
+        <h2 class="text-white text-3xl">Vamos fazer um orçamento?</h2>
+        <div class="flex flex-row gap-4 w-full justify-center">
+          <a
+            href="https://wa.me/559784608863?text=Eu%20quero%20um%20orçamento!%20📋%20"
+            target="_blank"
+            class="max-w-[210px] w-full"
+          >
+            <span
+              class="w-full text-center text-[#88FF9A] inline-flex gap-2 justify-center items-center border border-[#88FF9A] px-6 py-2 rounded-full"
+            >
+              <i data-lucide="phone"></i>
+              Whatsapp
+            </span>
+          </a>
+
+          <a
+            href="mailto:jhollyfer.fr@gmail.com?subject=Orçamento&body=Eu%20quero%20um%20orçamento!%20📋%20"
+            target="_blank"
+            class="max-w-[210px] w-full"
+          >
+            <span
+              class="w-full text-center text-white inline-flex gap-2 justify-center items-center border border-white px-6 py-2 rounded-full"
+            >
+              <i data-lucide="send"></i>
+              E-mail
+            </span>
+          </a>
+        </div>
+        <a href="#home">
+          <span class="text-base text-white inline-flex gap-2 items-center">
+            Voltar ao topo
+            <i data-lucide="arrow-up"></i>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <footer
+      class="bg-[#171717] w-full inline-flex justify-center items-center p-8"
+    >
+      <div class="container w-full text-white inline-flex justify-between">
+        <p>Copyright © Jhollyfer Rodrigues · 2025</p>
+        <ul class="inline-flex gap-4">
+          <li class="bg-white rounded-full p-2">
+            <a href="https://www.linkedin.com/in/jhollyferr/" target="_blank">
+              <i data-lucide="linkedin" class="text-[#171717]"></i>
+            </a>
+          </li>
+          <li class="bg-white rounded-full p-2">
+            <a href="https://github.com/indiodev" target="_blank">
+              <i data-lucide="github" class="text-[#171717]"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="module" src="/assets/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  </body>
+</html>
